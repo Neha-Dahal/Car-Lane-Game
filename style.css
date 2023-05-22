@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.race-container {
+  position: relative;
+  height: 600px;
+  width: 300px;
+  margin: 20px auto;
+  background-image: url(./images/road-image.png);
+  background-position: 0px 100px;
+  background-repeat: repeat-y;
+  overflow: hidden;
+  background-size: contain;
+}
+
+.home-screen {
+  position: relative;
+  height: 600px;
+  width: 300px;
+  margin: 0 auto;
+  background: url(/images/home-background.jpg);
+  background-repeat: none;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.home-screen-start-button {
+  position: absolute;
+  width: 130px;
+  height: 65px;
+  top: 50%;
+  left: 50%;
+  cursor: pointer;
+  background-color: #208885;
+  text-align: center;
+  color: white;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 50px;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.25);
+}
+
+.game-over-screen {
+  position: absolute;
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  background-color: black;
+}
+
+.score-board {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0.3em;
+  width: auto;
+  outline: none;
+  font-size: 30px;
+  color: white;
+}
+
+.result-screen-game-over {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 32px;
+  margin: 0;
+}
+
+.try-again-button {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  position: absolute;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  background: #8aaae5;
+  color: white;
+  border-radius: 10px;
+  top: 332px;
+  left: 90px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.car {
+  background: url(/images/userCar.png) 50% 50% no-repeat;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+}
+
+.obstacle {
+  background: url(/images/obstacle.png) 50% 50% no-repeat;
+  position: absolute;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.bullet {
+  background-color: orange;
+  position: absolute;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+.score {
+  margin: 10px;
+  background: orange;
+  color: white;
+  font-size: 1em;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border: 1px solid black;
+  padding: 0.3em;
+  outline: none;
+  letter-spacing: 3px;
+}
