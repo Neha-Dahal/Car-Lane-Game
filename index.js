@@ -156,7 +156,7 @@ class Screen {
   }
 }
 
-class CarGame {
+class World {
   constructor(props) {
     this.parentElement = props.element;
     this.car = new Car({
