@@ -21,7 +21,7 @@
   height: 600px;
   width: 300px;
   margin: 0 auto;
-  background: url(/images/home-background.jpg);
+  background: url(./images/home-background.jpg);
   background-repeat: none;
   background-size: cover;
   overflow: hidden;
@@ -94,14 +94,14 @@
 }
 
 .car {
-  background: url(/images/userCar.png) 50% 50% no-repeat;
+  background: url(./images/userCar.png) 50% 50% no-repeat;
   position: absolute;
   height: 100px;
   width: 100px;
 }
 
 .obstacle {
-  background: url(/images/obstacle.png) 50% 50% no-repeat;
+  background: url(./images/obstacle.png) 50% 50% no-repeat;
   position: absolute;
   border-radius: 50%;
   height: 100px;
